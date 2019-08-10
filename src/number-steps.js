@@ -11,7 +11,7 @@ const step = ({ snap = false, size }) => ({
         if (!snap) return value - size;
         if (value > 0) return (value % size === 0) ? value - size : (value - value % size);
         if (value === 0) return 0 - size;
-        if (value % size === 0) return value + size;
+        if (Math.abs(value % size) === 0) return value - size;
         return value - (value % size) - size;
     }
 })
