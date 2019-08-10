@@ -1,5 +1,9 @@
 # number-steps
 
+![npm](https://img.shields.io/npm/v/number-steps)
+
+`npm install number-steps`
+
 ```js
 const {step} = require("./number-steps");
 
