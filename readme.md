@@ -1,6 +1,6 @@
 # number-steps
 
-![npm](https://img.shields.io/npm/v/number-steps)
+[![npm](https://img.shields.io/npm/v/number-steps)](https://www.npmjs.com/package/number-steps)
 
 `npm install number-steps`
 
